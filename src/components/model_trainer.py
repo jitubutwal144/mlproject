@@ -2,8 +2,8 @@ import os
 import sys
 from dataclasses import dataclass
 
-from exception import CustomException
-from logger import logging
+from src.exception import CustomException
+from src.logger import logging
 
 from sklearn.ensemble import (
   RandomForestRegressor,
@@ -15,7 +15,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from xgboost import XGBRegressor
 from catboost import CatBoostRegressor
-from utils import save_object, evaluate_model
+from src.utils import save_object, evaluate_model
 
 from sklearn.metrics import r2_score
 

@@ -1,7 +1,7 @@
 import os
 import sys
 import pickle
-from exception import CustomException
+from .exception import CustomException
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import r2_score
 
